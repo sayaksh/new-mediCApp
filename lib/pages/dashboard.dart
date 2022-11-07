@@ -1,4 +1,7 @@
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
+
+import 'package:medic_cube/router/router.gr.dart';
 
 class DashboardPage extends StatefulWidget {
   const DashboardPage({super.key});
@@ -68,18 +71,32 @@ class _DashboardPageState extends State<DashboardPage> {
                         elevation: 5,
                         child: Column(
                           children: [
-                            Image.network(
-                              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKSqBZSsyZS2guz9wsTCoEcsDRKUNiFWyWjg&usqp=CAU",
-                              fit: BoxFit.cover,
-                            ),
-                            const SizedBox(
-                              height: 10,
-                            ),
-                            const Text(
-                              "Patient\nEnrollment",
-                              style: TextStyle(
-                                fontSize: 14,
-                                color: Color.fromARGB(255, 18, 29, 36),
+                            InkWell(
+                              onTap: () {
+                                context.router
+                                    .push(const PatientWaitingRoute());
+                              },
+                              // ignore: avoid_unnecessary_containers
+                              child: Container(
+                                child: Column(
+                                  children: [
+                                    Image.network(
+                                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKSqBZSsyZS2guz9wsTCoEcsDRKUNiFWyWjg&usqp=CAU",
+                                      fit: BoxFit.cover,
+                                    ),
+                                    const SizedBox(
+                                      height: 10,
+                                    ),
+                                    const Text(
+                                      "Patient\nEnrollment",
+                                      style: TextStyle(
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.bold,
+                                        color: Color.fromARGB(255, 18, 29, 36),
+                                      ),
+                                    )
+                                  ],
+                                ),
                               ),
                             )
                           ],
@@ -108,7 +125,8 @@ class _DashboardPageState extends State<DashboardPage> {
                             const Text(
                               "HealthCare\nManagement",
                               style: TextStyle(
-                                fontSize: 14,
+                                fontSize: 12,
+                                fontWeight: FontWeight.bold,
                                 color: Color.fromARGB(255, 18, 29, 36),
                               ),
                             )
@@ -135,7 +153,8 @@ class _DashboardPageState extends State<DashboardPage> {
                             const Text(
                               "HubX",
                               style: TextStyle(
-                                fontSize: 14,
+                                fontSize: 12,
+                                fontWeight: FontWeight.bold,
                                 color: Color.fromARGB(255, 18, 29, 36),
                               ),
                             )
@@ -162,7 +181,8 @@ class _DashboardPageState extends State<DashboardPage> {
                             const Text(
                               "Nursing",
                               style: TextStyle(
-                                fontSize: 14,
+                                fontSize: 12,
+                                fontWeight: FontWeight.bold,
                                 color: Color.fromARGB(255, 18, 29, 36),
                               ),
                             )
@@ -189,7 +209,8 @@ class _DashboardPageState extends State<DashboardPage> {
                             const Text(
                               "Elderly\nCare",
                               style: TextStyle(
-                                fontSize: 14,
+                                fontSize: 12,
+                                fontWeight: FontWeight.bold,
                                 color: Color.fromARGB(255, 18, 29, 36),
                               ),
                             )
@@ -228,7 +249,8 @@ class _DashboardPageState extends State<DashboardPage> {
                             const Text(
                               "Wellness\nServices",
                               style: TextStyle(
-                                fontSize: 14,
+                                fontSize: 12,
+                                fontWeight: FontWeight.bold,
                                 color: Color.fromARGB(255, 18, 29, 36),
                               ),
                             )
@@ -255,7 +277,8 @@ class _DashboardPageState extends State<DashboardPage> {
                             const Text(
                               "Medical\nServices",
                               style: TextStyle(
-                                fontSize: 14,
+                                fontSize: 12,
+                                fontWeight: FontWeight.bold,
                                 color: Color.fromARGB(255, 18, 29, 36),
                               ),
                             )
@@ -282,7 +305,8 @@ class _DashboardPageState extends State<DashboardPage> {
                             const Text(
                               "Physiotherapy",
                               style: TextStyle(
-                                fontSize: 14,
+                                fontSize: 12,
+                                fontWeight: FontWeight.bold,
                                 color: Color.fromARGB(255, 18, 29, 36),
                               ),
                             )
@@ -309,7 +333,8 @@ class _DashboardPageState extends State<DashboardPage> {
                             const Text(
                               "Dental",
                               style: TextStyle(
-                                fontSize: 14,
+                                fontSize: 12,
+                                fontWeight: FontWeight.bold,
                                 color: Color.fromARGB(255, 18, 29, 36),
                               ),
                             )
@@ -336,7 +361,8 @@ class _DashboardPageState extends State<DashboardPage> {
                             const Text(
                               "Sync",
                               style: TextStyle(
-                                fontSize: 14,
+                                fontSize: 12,
+                                fontWeight: FontWeight.bold,
                                 color: Color.fromARGB(255, 18, 29, 36),
                               ),
                             )

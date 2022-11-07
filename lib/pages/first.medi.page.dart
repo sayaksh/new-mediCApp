@@ -14,7 +14,7 @@ class _FirstMediPageState extends State<FirstMediPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[100],
+      backgroundColor: Color.fromARGB(255, 226, 221, 221),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -54,9 +54,9 @@ class _FirstMediPageState extends State<FirstMediPage> {
               height: 400,
               width: 400,
               child: Card(
-                color: Colors.white,
+                color: Color.fromARGB(255, 248, 246, 246),
                 shadowColor: Colors.black,
-                elevation: 6,
+                elevation: 11,
                 child: Container(
                   child: Form(
                       key: _formKey,
