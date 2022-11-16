@@ -11,7 +11,7 @@ class _PatientWaitingPageState extends State<PatientWaitingPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[100],
+      backgroundColor: Color.fromARGB(255, 216, 208, 205),
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 14, 98, 161),
         title: const Text(
@@ -52,11 +52,11 @@ class _PatientWaitingPageState extends State<PatientWaitingPage> {
                         child: Column(
                           children: const [
                             Text(
-                              "Ronald Richards",
+                              "Sweety Sinhania",
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   color: Color.fromARGB(255, 13, 46, 66),
-                                  fontSize: 16),
+                                  fontSize: 14),
                             ),
                             Text(
                               "Female | 1990-09-15",
@@ -98,11 +98,11 @@ class _PatientWaitingPageState extends State<PatientWaitingPage> {
                         child: Column(
                           children: const [
                             Text(
-                              "Ronald Richards",
+                              "Jesica Alva",
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   color: Color.fromARGB(255, 13, 46, 66),
-                                  fontSize: 16),
+                                  fontSize: 14),
                             ),
                             Text(
                               "Female | 1990-09-15",
@@ -144,11 +144,11 @@ class _PatientWaitingPageState extends State<PatientWaitingPage> {
                         child: Column(
                           children: const [
                             Text(
-                              "Ronald Richards",
+                              "Jenifer Lawrence",
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   color: Color.fromARGB(255, 13, 46, 66),
-                                  fontSize: 16),
+                                  fontSize: 14),
                             ),
                             Text(
                               "Female | 1990-09-15",
@@ -194,11 +194,11 @@ class _PatientWaitingPageState extends State<PatientWaitingPage> {
                         child: Column(
                           children: const [
                             Text(
-                              "Ronald Richards",
+                              "Kalpana Chawla",
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   color: Color.fromARGB(255, 13, 46, 66),
-                                  fontSize: 16),
+                                  fontSize: 14),
                             ),
                             Text(
                               "Female | 1990-09-15",
@@ -240,14 +240,14 @@ class _PatientWaitingPageState extends State<PatientWaitingPage> {
                         child: Column(
                           children: const [
                             Text(
-                              "Ronald Richards",
+                              "Karishma",
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   color: Color.fromARGB(255, 13, 46, 66),
-                                  fontSize: 16),
+                                  fontSize: 14),
                             ),
                             Text(
-                              "Female | 1990-09-15",
+                              "Female | 1992-09-15",
                               style:
                                   TextStyle(fontSize: 12, color: Colors.grey),
                             ),
@@ -286,14 +286,14 @@ class _PatientWaitingPageState extends State<PatientWaitingPage> {
                         child: Column(
                           children: const [
                             Text(
-                              "Ronald Richards",
+                              "Nandini",
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   color: Color.fromARGB(255, 13, 46, 66),
-                                  fontSize: 16),
+                                  fontSize: 14),
                             ),
                             Text(
-                              "Female | 1990-09-15",
+                              "Female | 1995-09-15",
                               style:
                                   TextStyle(fontSize: 12, color: Colors.grey),
                             ),
@@ -336,14 +336,14 @@ class _PatientWaitingPageState extends State<PatientWaitingPage> {
                         child: Column(
                           children: const [
                             Text(
-                              "Ronald Richards",
+                              "Anu Roy",
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   color: Color.fromARGB(255, 13, 46, 66),
-                                  fontSize: 16),
+                                  fontSize: 14),
                             ),
                             Text(
-                              "Female | 1990-09-15",
+                              "Female | 1993-09-15",
                               style:
                                   TextStyle(fontSize: 12, color: Colors.grey),
                             ),
@@ -382,11 +382,11 @@ class _PatientWaitingPageState extends State<PatientWaitingPage> {
                         child: Column(
                           children: const [
                             Text(
-                              "Ronald Richards",
+                              "Mouni Roy",
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   color: Color.fromARGB(255, 13, 46, 66),
-                                  fontSize: 16),
+                                  fontSize: 14),
                             ),
                             Text(
                               "Female | 1990-09-15",
@@ -428,11 +428,11 @@ class _PatientWaitingPageState extends State<PatientWaitingPage> {
                         child: Column(
                           children: const [
                             Text(
-                              "Ronald Richards",
+                              "Thondri",
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   color: Color.fromARGB(255, 13, 46, 66),
-                                  fontSize: 16),
+                                  fontSize: 14),
                             ),
                             Text(
                               "Female | 1990-09-15",
@@ -478,11 +478,11 @@ class _PatientWaitingPageState extends State<PatientWaitingPage> {
                         child: Column(
                           children: const [
                             Text(
-                              "Ronald Richards",
+                              "Roni Kapoor",
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   color: Color.fromARGB(255, 13, 46, 66),
-                                  fontSize: 16),
+                                  fontSize: 14),
                             ),
                             Text(
                               "Female | 1990-09-15",
@@ -528,7 +528,7 @@ class _PatientWaitingPageState extends State<PatientWaitingPage> {
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   color: Color.fromARGB(255, 13, 46, 66),
-                                  fontSize: 16),
+                                  fontSize: 14),
                             ),
                             Text(
                               "Female | 1990-09-15",
@@ -570,11 +570,11 @@ class _PatientWaitingPageState extends State<PatientWaitingPage> {
                         child: Column(
                           children: const [
                             Text(
-                              "Ronald Richards",
+                              "Sushmita Sen",
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   color: Color.fromARGB(255, 13, 46, 66),
-                                  fontSize: 16),
+                                  fontSize: 14),
                             ),
                             Text(
                               "Female | 1990-09-15",
@@ -620,11 +620,11 @@ class _PatientWaitingPageState extends State<PatientWaitingPage> {
                         child: Column(
                           children: const [
                             Text(
-                              "Ronald Richards",
+                              "Soma Laishram ",
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   color: Color.fromARGB(255, 13, 46, 66),
-                                  fontSize: 16),
+                                  fontSize: 14),
                             ),
                             Text(
                               "Female | 1990-09-15",
@@ -666,11 +666,11 @@ class _PatientWaitingPageState extends State<PatientWaitingPage> {
                         child: Column(
                           children: const [
                             Text(
-                              "Ronald Richards",
+                              "Bala Hijam",
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   color: Color.fromARGB(255, 13, 46, 66),
-                                  fontSize: 16),
+                                  fontSize: 14),
                             ),
                             Text(
                               "Female | 1990-09-15",
@@ -712,11 +712,11 @@ class _PatientWaitingPageState extends State<PatientWaitingPage> {
                         child: Column(
                           children: const [
                             Text(
-                              "Ronald Richards",
+                              "Narmada",
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   color: Color.fromARGB(255, 13, 46, 66),
-                                  fontSize: 16),
+                                  fontSize: 14),
                             ),
                             Text(
                               "Female | 1990-09-15",
